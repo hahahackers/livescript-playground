@@ -1,0 +1,30 @@
+{
+  "name": "app-livescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lsc -c main.ls | webpack ./main.js --mode development",
+    "help": "webpack --help",
+    "dev": "httpster ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ace-builds": "1.4.14",
+    "lodash.debounce": "4.0.8",
+    "lodash.rearg": "4.4.0",
+    "react": "17.0.2",
+    "react-ace": "10.0.0",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.16.11",
+    "@babel/cli": "7.17.6",
+    "@babel/core": "7.17.9",
+    "livescript": "1.6.0",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2"
+  }
+}
