@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "lsc -c main.ls | webpack ./main.js --mode development",
+    "build:ls": "lsc -c main.ls",
+    "build:js": "webpack ./main.js --mode development",
     "help": "webpack --help",
     "dev": "httpster ."
   },
