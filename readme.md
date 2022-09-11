@@ -1,3 +1,3 @@
 # Livescript Playground
 
-https://alextheartisan.github.io/livescript-playground
+https://artialex.github.io/livescript-playground
